@@ -1,7 +1,7 @@
 void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
 {
 //=========Macro generated from canvas: h_DSTReader_z/h_DSTReader_z
-//=========  (Thu May 21 17:56:40 2020) by ROOT version 6.16/00
+//=========  (Thu May 21 18:11:03 2020) by ROOT version 6.16/00
    TCanvas *h_DSTReader_z = new TCanvas("h_DSTReader_z", "h_DSTReader_z",0,0,1000,860);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -107,13 +107,13 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz_all__1->SetLineWidth(2);
    hz_all__1->SetMarkerStyle(20);
    hz_all__1->SetMarkerSize(1.2);
-   hz_all__1->GetXaxis()->SetTitle("Vertex z");
+   hz_all__1->GetXaxis()->SetTitle("Photon beam pipe crossing z [cm]");
    hz_all__1->GetXaxis()->SetLabelFont(42);
    hz_all__1->GetXaxis()->SetLabelSize(0.05);
    hz_all__1->GetXaxis()->SetTitleSize(0.05);
    hz_all__1->GetXaxis()->SetTitleOffset(1.4);
    hz_all__1->GetXaxis()->SetTitleFont(42);
-   hz_all__1->GetYaxis()->SetTitle("Virtual Photon Count");
+   hz_all__1->GetYaxis()->SetTitle("Virtual Photon Count w/o Normalization");
    hz_all__1->GetYaxis()->SetLabelFont(42);
    hz_all__1->GetYaxis()->SetLabelSize(0.05);
    hz_all__1->GetYaxis()->SetTitleSize(0.05);
@@ -126,7 +126,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz_all__1->GetZaxis()->SetTitleFont(42);
    hz_all__1->Draw("");
    
-   TH1F *hz_all_10keV__2 = new TH1F("hz_all_10keV__2","Photons and MAPS hits",80,-400,400);
+   TH1F *hz_all_10keV__2 = new TH1F("hz_all_10keV__2","",80,-400,400);
    hz_all_10keV__2->SetBinContent(1,13400);
    hz_all_10keV__2->SetBinContent(2,12870);
    hz_all_10keV__2->SetBinContent(3,12840);
@@ -201,13 +201,11 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz_all_10keV__2->SetLineWidth(2);
    hz_all_10keV__2->SetMarkerStyle(20);
    hz_all_10keV__2->SetMarkerSize(1.2);
-   hz_all_10keV__2->GetXaxis()->SetTitle("Vertex z");
    hz_all_10keV__2->GetXaxis()->SetLabelFont(42);
    hz_all_10keV__2->GetXaxis()->SetLabelSize(0.05);
    hz_all_10keV__2->GetXaxis()->SetTitleSize(0.05);
    hz_all_10keV__2->GetXaxis()->SetTitleOffset(1.4);
    hz_all_10keV__2->GetXaxis()->SetTitleFont(42);
-   hz_all_10keV__2->GetYaxis()->SetTitle("Virtual Photon Count");
    hz_all_10keV__2->GetYaxis()->SetLabelFont(42);
    hz_all_10keV__2->GetYaxis()->SetLabelSize(0.05);
    hz_all_10keV__2->GetYaxis()->SetTitleSize(0.05);
@@ -220,7 +218,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz_all_10keV__2->GetZaxis()->SetTitleFont(42);
    hz_all_10keV__2->Draw("same");
    
-   TH1F *hz__3 = new TH1F("hz__3","Photons and MAPS hits",80,-400,400);
+   TH1F *hz__3 = new TH1F("hz__3","",80,-400,400);
    hz__3->SetBinContent(39,1);
    hz__3->SetBinContent(42,3);
    hz__3->SetBinContent(43,4);
@@ -238,13 +236,11 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz__3->SetLineWidth(2);
    hz__3->SetMarkerStyle(20);
    hz__3->SetMarkerSize(1.2);
-   hz__3->GetXaxis()->SetTitle("Vertex z");
    hz__3->GetXaxis()->SetLabelFont(42);
    hz__3->GetXaxis()->SetLabelSize(0.05);
    hz__3->GetXaxis()->SetTitleSize(0.05);
    hz__3->GetXaxis()->SetTitleOffset(1.4);
    hz__3->GetXaxis()->SetTitleFont(42);
-   hz__3->GetYaxis()->SetTitle("Virtual Photon Count");
    hz__3->GetYaxis()->SetLabelFont(42);
    hz__3->GetYaxis()->SetLabelSize(0.05);
    hz__3->GetYaxis()->SetTitleSize(0.05);

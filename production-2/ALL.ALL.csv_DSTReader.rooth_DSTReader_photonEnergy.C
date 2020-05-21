@@ -1,7 +1,7 @@
 void ALL.ALL.csv_DSTReader.rooth_DSTReader_photonEnergy()
 {
 //=========Macro generated from canvas: h_DSTReader_photonEnergy/h_DSTReader_photonEnergy
-//=========  (Thu May 21 17:57:44 2020) by ROOT version 6.16/00
+//=========  (Thu May 21 18:12:04 2020) by ROOT version 6.16/00
    TCanvas *h_DSTReader_photonEnergy = new TCanvas("h_DSTReader_photonEnergy", "h_DSTReader_photonEnergy",0,0,1000,860);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -139,7 +139,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_photonEnergy()
    he_all__4->GetXaxis()->SetTitleSize(0.05);
    he_all__4->GetXaxis()->SetTitleOffset(1.4);
    he_all__4->GetXaxis()->SetTitleFont(42);
-   he_all__4->GetYaxis()->SetTitle("Virtual Photon Count");
+   he_all__4->GetYaxis()->SetTitle("Virtual Photon Count w/o Normalization");
    he_all__4->GetYaxis()->SetLabelFont(42);
    he_all__4->GetYaxis()->SetLabelSize(0.05);
    he_all__4->GetYaxis()->SetTitleSize(0.05);
