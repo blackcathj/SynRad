@@ -1,7 +1,7 @@
 void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
 {
 //=========Macro generated from canvas: h_DSTReader_z/h_DSTReader_z
-//=========  (Thu May 21 18:11:03 2020) by ROOT version 6.16/00
+//=========  (Thu May 21 23:23:01 2020) by ROOT version 6.16/00
    TCanvas *h_DSTReader_z = new TCanvas("h_DSTReader_z", "h_DSTReader_z",0,0,1000,860);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -107,7 +107,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    hz_all__1->SetLineWidth(2);
    hz_all__1->SetMarkerStyle(20);
    hz_all__1->SetMarkerSize(1.2);
-   hz_all__1->GetXaxis()->SetTitle("Photon beam pipe crossing z [cm]");
+   hz_all__1->GetXaxis()->SetTitle("z position @ photon crossing beam pipe, z_{#gamma} [cm]");
    hz_all__1->GetXaxis()->SetLabelFont(42);
    hz_all__1->GetXaxis()->SetLabelSize(0.05);
    hz_all__1->GetXaxis()->SetTitleSize(0.05);
@@ -280,7 +280,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("hz_all_10keV","e_{#gamma} > 10keV","lf");
+   entry=leg->AddEntry("hz_all_10keV","E_{#gamma} > 10keV","lf");
 
    ci = TColor::GetColor("#000099");
    entry->SetFillColor(ci);
