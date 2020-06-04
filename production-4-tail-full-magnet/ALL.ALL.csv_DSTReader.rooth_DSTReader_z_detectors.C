@@ -1,7 +1,7 @@
 void ALL.ALL.csv_DSTReader.rooth_DSTReader_z_detectors()
 {
 //=========Macro generated from canvas: h_DSTReader_z_detectors/h_DSTReader_z_detectors
-//=========  (Wed Jun  3 12:24:28 2020) by ROOT version 6.16/00
+//=========  (Thu Jun  4 11:11:09 2020) by ROOT version 6.16/00
    TCanvas *h_DSTReader_z_detectors = new TCanvas("h_DSTReader_z_detectors", "h_DSTReader_z_detectors",0,0,1000,860);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -252,6 +252,19 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z_detectors()
    hz_MVTX__9->Draw("same");
    
    TH1F *hz_SVTX__10 = new TH1F("hz_SVTX__10","",80,-400,400);
+   hz_SVTX__10->SetBinContent(42,1);
+   hz_SVTX__10->SetBinContent(43,1);
+   hz_SVTX__10->SetBinContent(49,1);
+   hz_SVTX__10->SetBinContent(50,4);
+   hz_SVTX__10->SetBinContent(51,1);
+   hz_SVTX__10->SetBinContent(52,1);
+   hz_SVTX__10->SetBinContent(53,1);
+   hz_SVTX__10->SetBinContent(54,2);
+   hz_SVTX__10->SetBinContent(55,1);
+   hz_SVTX__10->SetBinContent(56,1);
+   hz_SVTX__10->SetBinContent(58,1);
+   hz_SVTX__10->SetBinContent(59,1);
+   hz_SVTX__10->SetEntries(16);
 
    ci = 1180;
    color = new TColor(ci, 0.6, 0, 0.6, " ", 0.3);
