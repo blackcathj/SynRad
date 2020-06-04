@@ -1,7 +1,7 @@
 void 18966_SUM.csv_SynRadAna.root_Check2()
 {
 //=========Macro generated from canvas: Check2/Check2
-//=========  (Thu Jun  4 11:04:19 2020) by ROOT version 6.16/00
+//=========  (Thu Jun  4 13:20:42 2020) by ROOT version 6.16/00
    TCanvas *Check2 = new TCanvas("Check2", "Check2",0,0,1000,1000);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);

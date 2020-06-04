@@ -1,7 +1,7 @@
 void ALL.ALL.csv_DSTReader.rooth_DSTReader_z_detectors()
 {
 //=========Macro generated from canvas: h_DSTReader_z_detectors/h_DSTReader_z_detectors
-//=========  (Wed Jun  3 12:27:34 2020) by ROOT version 6.16/00
+//=========  (Thu Jun  4 11:35:01 2020) by ROOT version 6.16/00
    TCanvas *h_DSTReader_z_detectors = new TCanvas("h_DSTReader_z_detectors", "h_DSTReader_z_detectors",0,0,1000,860);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
@@ -102,7 +102,7 @@ void ALL.ALL.csv_DSTReader.rooth_DSTReader_z_detectors()
    hz_all__7->SetLineWidth(2);
    hz_all__7->SetMarkerStyle(20);
    hz_all__7->SetMarkerSize(1.2);
-   hz_all__7->GetXaxis()->SetTitle("z position @ photon crossing beam pipe, z_{#gamma} [cm]");
+   hz_all__7->GetXaxis()->SetTitle("z position @ #gamma crossing ref. facet, z_{#gamma} [cm]");
    hz_all__7->GetXaxis()->SetRange(1,70);
    hz_all__7->GetXaxis()->SetLabelFont(42);
    hz_all__7->GetXaxis()->SetLabelSize(0.05);
